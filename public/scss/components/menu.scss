@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+    menu
+--------------------------------------------------------------*/
+
+.espace_liens {
+    align-content: center;
+
+    a:hover {
+        text-decoration: none !important;
+        border-bottom: 3px solid orangered;
+        color: black !important;
+    }
+}
+
+.menu_liens {
+    align-self: center;
+    border: none;
+
+    a {
+        color: black;
+        margin-right: 1em;
+        font-size: 2em;
+    }
+}
+
+/*--------------------------------------------------------------
+    Personnalisation des liens:hover du menu
+--------------------------------------------------------------*/
+.dropdown-item:hover {
+    border: none !important;
+    background-color: rgba(255, 69, 0, 0.1);
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.menu_icones {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+
+    a {
+        display: flex;
+        color: black;
+        font-size: 1em;
+        margin-right: 1.5em;
+
+        p {
+            margin-right: 0.5em;
+            margin-bottom: 0;
+        }
+
+        i {
+            padding-top: 0.15em;
+        }
+    }
+}
